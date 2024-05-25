@@ -76,7 +76,7 @@ hypervisor：配置并解析guest的命令
 注入过程：
 
 - 物理外设产生中断
-- 收到、判断是水的
+- 收到、判断是谁的
 - 通过GICH注入
 - eret返回EL1，vCPU开始执行
 - GIC向vCPU发出虚拟中断
